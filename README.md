@@ -17,9 +17,9 @@ Het project gebruikt een SQL Server database met twee hoofdtabellen:
 
 1. Zorg dat SQL Server actief is
 2. Pas indien nodig de connection string aan in `VoorbeeldDBContext.cs`
-3. Voer de migraties uit:
+3. Voer de migraties uit in package manager console:
 
-dotnet ef migrations add InitialCreate dotnet ef database update
+update-database
 
 ## Naslag
 Zie : https://learn.microsoft.com/en-us/ef/core/querying/
